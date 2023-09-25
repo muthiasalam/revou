@@ -155,6 +155,7 @@ select{
     height:100%;
     justify-content: center;
     align-items: center;
+    margin-right: 15px;
 }
 
 .profil-container{
@@ -487,7 +488,6 @@ footer{
     
     .image-content{
         box-sizing: border-box;
-        display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
@@ -517,13 +517,14 @@ footer{
         box-sizing: border-box;
         width: 100%;
         margin-bottom: 50px;
-        
+        margin-right: 0px;
     }
     
     .right-content{
         display: flex;
         box-sizing: border-box;
-        width: 50%;
+        width: 70%;
+        margin-bottom: 30px;
     }
     
     .content-form{
@@ -592,6 +593,7 @@ footer{
         height:100%;
         justify-content: center;
         align-items: center;
+        margin-right: 15px;
     }
     
     .profil-container{
@@ -629,23 +631,20 @@ footer{
     .information{
         display: flex;
         flex-direction: column;
-        margin: 0px 30px 30px 30px;
+        margin: 30px 0;
     }
     
     .left-info{
         box-sizing: border-box;
-        width: 70%;
-        padding-right: 50px;
+        width: 100%;
+        padding: 0px
     }
     
-    .right-info{
-        box-sizing: border-box;
-        width: 30%;
-    }
     
     .span-info{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
+        margin-bottom: 50px;
     }
     
     .poin-one{
@@ -705,7 +704,6 @@ footer{
     .one-right{
         display: flex;
         box-sizing: border-box;
-        width: 600px;
         color: black;
         justify-content: start;
         align-items: center;
@@ -758,7 +756,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 50px 0;
+        padding: 20px 0;
         background-color: #eef0f4;
         color: black;
         font-weight: bold;
@@ -767,13 +765,14 @@ footer{
     
     .packages-top{
         display: flex;
-        flex-direction: row;
-        margin: 30px 30px 50px 30px;
+        flex-direction: column;
+        margin: 30px 0px 50px 0px;
     }
     
     .top1, .top2, .top3{
         display: flex;
         flex:1;
+        margin: 20px 0;
     }
     
     .top1-right, .top2-right, .top3-right{
@@ -784,14 +783,14 @@ footer{
     
     .packages-bottom{
         display: flex;
-        flex-direction: row;
-        margin: 30px 30px 50px 30px;
+        flex-direction: column;
+        margin: 30px 0px 50px 0px;
     }
     
     .bottom1, .bottom2, .bottom3{
         display: flex;
         flex:1;
-        margin-right: 20px;
+        margin: 20px 0;
     }
     
     .bottom1-right, .bottom2-right, .bottom3-right{
